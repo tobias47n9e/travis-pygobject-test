@@ -4,7 +4,7 @@ machine:
 
 dependencies:
   post:
-    - python3 -m pip install pytest
+    - python ./install-packages
 
 test:
   override:
