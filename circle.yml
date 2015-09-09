@@ -2,10 +2,6 @@ machine:
   services:
     - docker
 
-dependencies:
-  post:
-    - python ./install-packages
-
 test:
   override:
     - python3 -m pytest
