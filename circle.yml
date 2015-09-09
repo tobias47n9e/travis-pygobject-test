@@ -7,4 +7,4 @@ machine:
 
 test:
   override:
-    - python3 -m pytest tests/
+    - docker run python3 -m pytest tests/
